@@ -1,0 +1,90 @@
+<předmět id="APR1" xmlns="http://ki.ujep.cz/ns/akreditace">
+    <forma-ověření>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            Seminární práce (s možností využití AI chatbotů) a diskuse řešení (ověření znalosti použitých řešení, efektivita, alternativní řešení.)
+            Student su může zvolit použitý programovací jazyk (Scheme, Haskell, Python, C#), ale musí být schopen diskutovat
+            i implementaci v ostatních relevantních programovacích jazycích (s využitím funkcionálních konstrukcí).
+        </div>
+    </forma-ověření>
+    <hlavní-témata>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                Kurz je zaměřen na pochopení a praktické využití funkcionálního paradigmatu
+                v oblasti zpracování a representace dat. Všechny mechanismy funkcionálního programování
+                jsou prezentovány v rámci popisu dvou klasických funkcionálních jazyků (<em>Scheme</em> a <em>Haskell</em>),
+                ale pozornost je věnována i jejich využití v moderních multiparadigmatických jazycích (<em>Python</em> a <em>C#</em>).
+                Prezentován je i jazyk <em>F#</em> spojující syntaxi blízkou Haskellu s objektovými knihovnami .NET.
+            </p>
+            <ol>
+                <li>základní principy funkcionálního programování (neměnnost, funkce jako plnohodnotný objekt)</li>
+                <li>Scheme: lispovské datové struktury (s-výrazy), funkce a speciální formy</li>
+                <li>Scheme: rekurze a práce se seznamy (koncová rekurze versus cykly)</li>
+                <li>Scheme: lambda funkce a currying , uzávěry</li>
+                <li>Scheme: funkcionály (<em>map</em>, zip, fold apod.)</li>
+                <li>Scheme: kontinuace a korutiny</li>
+                <li>Haskell: statický typový systém s typovou inferencí (základní typy a třídy seznamy, n-tice),
+                    generické typy,  typová inference v C# a Pythonu, striktní versus lazy vyhodnocování</li>
+                <li>Haskell: unifikace vzorů (<em>match</em> konstrukce v Pythonu a C#)</li>
+                <li>Haskell: algebraické datové typy</li>
+                <li>Haskell: generické algebraické datové typy</li>
+                <li>Haskell: monády (principy, seznamové monády)</li>
+                <li>Haskell: IO monády (vstup a výstup)</li>
+                <li>F#: rozdíly oproti Haskellu</li>
+            </ol>
+        </div>
+    </hlavní-témata>
+    <metody-výuky>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                Výuka využívá těchto metod:
+            </p>
+            <ul>
+                <li>prezentace teoretických i praktických východisek vyučujícím</li>
+                <li>komentované řešení praktických zadání vyučujícím  (s tvorbou kódu)</li>
+                <li>společné řešení praktických zadání s diskusí</li>
+                <li>samostatná práce studentů s prezentací a diskusí řešení</li>
+                <li>zapojení AI chatbotů do tvorby, dokumentování a testování řešení (hledání sémantických chyb)</li>
+            </ul>
+            <p>Semináře probíhají v počítačových učebnách vybavených potřebným softwarem (viz pomůcky níže), s možností interaktivního zapojení
+                studentů do prezentace řešení (zobrazení dílčích výstupů na dataprojektoru) a kontrolované samostatné práce.</p>
+        </div>
+    </metody-výuky>
+    <studijní-literatura>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <div class="subhead">Povinná:</div>
+            <div class="bibliography">
+                <div class="bibitem">
+                    KELSEY, R.; CLINGER, W.; REES, J. (eds.) <em>Revised⁵ Report on the Algorithmic Language Scheme.</em>
+                    Higher-Order and Symbolic Computation, vol. 11, no. 1, August 1998.
+                    Available at: <a href="https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/">https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/</a>
+                </div>
+                <div class="bibitem">
+                    Wikibooks contributors. <em>Haskell</em>. Wikibooks: Open books for an open world (Wikimedia Foundation).
+                    Latest reviewed version checked on 2 August 2023.
+                    Available at:<a href="https://en.wikibooks.org/wiki/Haskell">https://en.wikibooks.org/wiki/Haskell</a>
+                </div>
+            </div>
+
+            <div class="subhead">Doporučená:</div>
+            <div class="bibliography">
+                <div class="bibitem">
+                    SKOUPIL, David. <em>Programy a projekty v jazyku Scheme I</em>. Katedra informatiky,
+                    Přírodovědecká fakulta, Univerzita Palackého, Olomouc, 2007.
+                    Dostupné z:
+                    <a href="https://phoenix.inf.upol.cz/esf/ucebni/Programy%20a%20projekty%20v%20jazyku%20Scheme%20I.pdf">https://phoenix.inf.upol.cz/esf/ucebni/Programy%20a%20projekty%20v%20jazyku%20Scheme%20I.pdf</a>
+                </div>
+            </div>
+            <div class="subhead">Pomůcky:</div>
+            <ul class="pomucky">
+                <li>vývojové prostředí (s podporou Scheme R5RS)<a href="https://racket-lang.org/">Racket</a></li>
+                <li>vývojové prostředí <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                <li>vývojové prostředí <a href="https://www.jetbrains.com/pycharm/">Pycharm</a></li>
+                <li>vývojové prostředí <a href="https://www.jetbrains.com/rider/">Rider</a></li>
+                <li>kompilátor Haskellu<a href="https://www.haskell.org/ghc/">GHC</a></li>
+                <li><a href="https://www.haskell.org/ghc/">GHC</a></li>
+                <li>vývojářský framework <a href="https://dotnet.microsoft.com/en-us/">.NET</a> (s překladačem C# a F#)</li>
+                <li>vývojářský framework <a href="https://www.anaconda.com/">Anaconda</a> (překladač Pythonu, knihovny pro zpracování dat, Jupyter notebooky)</li>
+            </ul>
+        </div>
+    </studijní-literatura>
+</předmět>

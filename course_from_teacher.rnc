@@ -1,0 +1,24 @@
+default namespace = "http://ki.ujep.cz/ns/akreditace"
+namespace xhtml = "http://www.w3.org/1999/xhtml"
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start =
+  element předmět {
+    attribute id { xsd:ID },
+    forma-ověření,
+    hlavní-témata,
+    metody-výuky,
+    studijní-literatura
+  }
+
+forma-ověření        = element forma-ověření        { xhtml-any }
+hlavní-témata        = element hlavní-témata        { xhtml-any }
+metody-výuky         = element metody-výuky         { xhtml-any }
+studijní-literatura  = element studijní-literatura  { xhtml-any }
+
+
+# „Jakékoliv XHTML“: libovolné prvky v XHTML NS, libovolné atributy, libovolná hloubka.
+xhtml-any =
+  ( text
+  | element xhtml:* { ( attribute * { text } )*, xhtml-any }
+  )*
