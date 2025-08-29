@@ -1,0 +1,70 @@
+<předmět id="PMP" xmlns="http://ki.ujep.cz/ns/akreditace">
+    <forma-ověření>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            Seminární práce (s možností využití AI chatbotů) a diskuse řešení
+            (ověření znalosti použitých řešení, efektivita, alternativní řešení, možná rozšíření).
+            Student si může zvolit platformu, v níž seminární práci implementuje.
+        </div>
+    </forma-ověření>
+    <hlavní-témata>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                Kurz je zaměřen na praktické programování pro mobilní platformy (mobilní telefony, tablety),
+                přičemž pozornost je věnována typickým rysům těchto platforem - prodloužený běhový cyklus aplikace, sandboxing,
+                GUI a integrace se specifickými hardwarovými a softwarovými službami).
+                Konkrétní platforma bude volena podle aktuálních požadavků (uplatnění na pracovním trhu, dostupnost hardwaru).
+                V rámci kursu budou vytvářeny aplikace středního rozsahu ukazující klíčové aspekty zvolené platformy.
+            </p>
+            <dl class="ranges">
+                <dt>1</dt><dd>popis zvolené platformy z pohledu programátora, vývojové prostředí a kompilační řetězec</dd>
+                <dt>2–3</dt><dd>správa zdrojů (resources), základní návrhové vzory a idiomy, bezpečnost</dd>
+                <dt>4–5</dt><dd>design GUI, 2D grafika</dd>
+                <dt>6</dt><dd>integrace internetových služeb</dd>
+                <dt>7–8</dt><dd>geolokace a mapové služby</dd>
+                <dt>9–10</dt><dd>persistentní úložiště a databáze</dd>
+                <dt>11</dt><dd>sensory</dd>
+                <dt>12—13</dt><dd>přehled alternativních platforem</dd>
+            </dl>
+        </div>
+    </hlavní-témata>
+    <metody-výuky>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                Výuka využívá těchto metod:
+            </p>
+            <ul>
+                <li>prezentace teoretických i praktických východisek vyučujícím</li>
+                <li>komentované řešení praktických zadání vyučujícím  (s tvorbou kódu)</li>
+                <li>společné řešení praktických zadání s diskusí</li>
+                <li>samostatná práce studentů s prezentací a diskusí řešení</li>
+                <li>zapojení AI chatbotů do tvorby, dokumentování a testování řešení (hledání sémantických chyb)</li>
+            </ul>
+            <p>Semináře probíhají v počítačových učebnách vybavených potřebným softwarem (viz pomůcky níže), s možností interaktivního zapojení
+                studentů do prezentace řešení (zobrazení dílčích výstupů na dataprojektoru) a kontrolované samostatné práce.</p>
+        </div>
+    </metody-výuky>
+    <studijní-literatura>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <div class="subhead">Povinná:</div>
+            <div class="bibliography">
+                Android Developers (Google). Develop for Android [online]. [cited 29 Aug 2025]. Available from: https://developer.android.com/develop
+                Microsoft Corporation. NET Multi-platform App UI documentation – .NET MAUI [online]. 2025. [cited 29 Aug 2025]. Available from: https://learn.microsoft.com/en-us/dotnet/maui/
+            </div>
+
+            <div class="subhead">Doporučená:</div>
+            <div class="bibliography">
+                Meta Platforms, Inc.. React Native documentation [online]. Last updated 20 August 2025. [cited 29 August 2025]. Available from: https://reactnative.dev/docs/getting-started
+                Google LLC. Flutter on Mobile [online]. [cited 29 August 2025]. Available from: https://flutter.dev/multi-platform/mobile
+            </div>
+
+            <div class="subhead">Pomůcky:</div>
+            V současnosti jsou využívány tyto integrované vývojářské systémy:
+            <ul>
+                <li>vývojové prostředí (podpora Flutter,React Native apod.) <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                <li>vývojové prostředí (nativní Java/Kotlin SDK) <a href="https://developer.android.com/studio">Android Studio</a></li>
+                <li>vývojové prostředí (.NET MAUI, Uno)<a href="https://www.jetbrains.com/rider/">Rider</a></li>
+            </ul>
+            a k nim příslušná SDK (včetně překladačů).
+        </div>
+    </studijní-literatura>
+</předmět>
